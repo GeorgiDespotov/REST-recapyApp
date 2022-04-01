@@ -7,7 +7,7 @@ async function createUser(username, hashedPassword) {
         hashedPassword
     });
 
-    user.save();
+    user.save(); 
     return user;
 }
 
